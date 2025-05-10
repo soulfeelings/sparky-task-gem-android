@@ -49,6 +49,7 @@ dependencies {
     implementation("androidx.compose.ui:ui:1.8.0")
     implementation("androidx.compose.material:material:1.5.4")
     implementation("androidx.compose.ui:ui-tooling-preview:1.8.0")
+    implementation(libs.androidx.material3.android)
     debugImplementation("androidx.compose.ui:ui-tooling:1.8.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
